@@ -1,0 +1,39 @@
+{
+  "title": "Get product data from Google shopping",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "q": {
+      "title": "Query",
+      "type": "string",
+      "description": "The query you want to search.",
+      "editor": "textfield",
+      "prefill": "peanuts"
+    },
+    "gl": {
+      "title": "Google country",
+      "type": "string",
+      "description": "The country you want to search in.",
+      "editor": "textfield",
+      "prefill": "en"
+    },
+    "hl": {
+      "title": "Google language",
+      "type": "string",
+      "description": "The language you want to search in.",
+      "editor": "textfield",
+      "prefill": "en-US"
+    },
+    "google_domain": {
+      "title": "Google domain",
+      "type": "string",
+      "description": "The domain you want to search in.",
+      "editor": "textfield",
+      "prefill": "google.com"
+    }
+  },
+  "required": [
+    "q",
+    "google_domain"
+  ]
+}
