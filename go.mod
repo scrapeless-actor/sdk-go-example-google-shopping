@@ -6,7 +6,7 @@ require (
 	github.com/PuerkitoBio/goquery v1.10.0
 	github.com/google/go-querystring v1.1.0
 	github.com/json-iterator/go v1.1.12
-	github.com/scrapeless-ai/scrapeless-actor-sdk-go v0.0.6
+	github.com/scrapeless-ai/scrapeless-actor-sdk-go v0.0.9
 )
 
 require (
